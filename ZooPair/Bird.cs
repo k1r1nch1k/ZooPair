@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 public class Bird : Animal
 {
-    public Bird(string name, int age) : base(name, age) { }
+    public Bird(string name, int age, string favoriteFood) : base(name, age, favoriteFood) { }
     public override void MakeSound()
     {
         Console.WriteLine($"{Name} чирикает");
