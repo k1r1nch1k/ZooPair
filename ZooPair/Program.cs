@@ -7,5 +7,6 @@
         zoo.AddAnimal(new Mammal("Лев", 5));
         zoo.AddAnimal(new Bird("Орел", 3));
         zoo.ShowAll();
+        Console.WriteLine("Добро пожаловать в зоопарк!");
     }
 }
